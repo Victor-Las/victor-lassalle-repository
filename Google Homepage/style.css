@@ -1,0 +1,141 @@
+#topbar
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px 30px 20px 30px;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+.element
+{
+  width: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+#Connexion
+{
+  background-color: rgb(66,133,244);
+  color: white;
+  padding: 5px 20px 5px 15px;
+  font-weight: bold;
+}
+
+#Google
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+#searchbar
+{
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  border: 1px solid rgb(223,225,229);
+  padding: 10px 10px 10px 10px;
+  border-radius: 40px
+}
+
+#searchbar:hover
+{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#search
+{
+  width: 450px;
+  height: 25px;
+  margin: 1px 5px 1px 5px;
+  border: 0px solid;
+  background-color: transparent;
+}
+
+#search:focus
+{
+  outline: none;
+}
+
+#other
+{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 400px;
+}
+
+.other_options
+{
+  background-color: rgb(248,249,250);
+  margin: 15px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.other_options:hover
+{
+  box-shadow: 0 0 4px rgba(33,33,33,.2);
+}
+
+#jugement
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 1px solid grey;
+  padding: 3px;
+  text-decoration: none;
+}
+
+p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+#footer1
+{
+  background-color: rgb(242,242,242);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(111,111,111);
+  padding: 1%;
+  border: 1px solid rgb(218,220,224);
+  margin: 0;
+  text-align: left;
+}
+
+.footer2
+{
+  display: flex;
+  background-color: rgb(242,242,242);
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(111,111,111);
+  padding: 1%;
+  border: 1px solid rgb(218,220,224);
+  margin: 0;
+}
+
